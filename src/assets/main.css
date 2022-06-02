@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "mk_90";
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+  src: url("./fonts/mk_90.ttf")
+    format("truetype");
+    word-spacing: 30px;
+}
+@font-face {
+  font-family: "NotoSansMono";
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+  src: url("./fonts/NotoSansMono_SemiCondensed-Regular.ttf")
+    format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "NotoSansMono";
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.mk_90 {
+  word-spacing: .56rem;
+  font-family: 'mk_90';
+}

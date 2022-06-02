@@ -1,0 +1,26 @@
+@import '../variables';
+
+.button {
+  display: inline-block;
+  padding: 12px 15px;
+  font-size: 1.25rem;
+  background-color: $orange;
+  min-width: 176px;
+  text-align: center;
+  transition: background-color .3s linear;
+  color: $textWhite;
+  border-radius: 2px;
+
+  &:hover {
+    background-color: $hoverButtonOrange;
+  }
+
+  &_disabled, &_disabled:hover {
+    background-color: $disabledButton;
+    cursor: not-allowed;
+  }
+
+  &_fixed, &_fixed:hover {
+    background-color: $fixedButtonOrange;
+  }
+}
